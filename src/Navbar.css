@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff8dc;
+    color: royalblue;
+    padding: 10px 20px;
+}
+
+.navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar-links li {
+    display: inline;
+}
+
+.navbar-links a {
+    color: royalblue;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+    color: #00bcd4;
+}
